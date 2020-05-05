@@ -21,7 +21,8 @@ const EditScreen = ({navigation}) => {
                     updateBlogPost(
                         id,
                         newTitle,
-                        newContent)
+                        newContent,
+                        () => navigation.pop())
                 }}
             />
         </View>
